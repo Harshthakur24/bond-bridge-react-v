@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+body, html {
+    overflow-x: hidden;
+}
+
+.highlight {
+    @apply py-0.5 px-2 bg-[#7366FE40] rounded-lg rounded-tr-none rounded-br-none text-inherit -z-10;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
